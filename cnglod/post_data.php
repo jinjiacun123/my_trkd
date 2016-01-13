@@ -48,7 +48,7 @@ function post_news($newscontent, $classname)
 	return my_post1($url, $param, $header);
 }
 
-function post_data($title, $before, $prediction, $result, $country, $rank=5)
+function post_data($title, $before, $prediction, $result, $country, $rank=1)
 {
 	global $url, $header;
 	/*
