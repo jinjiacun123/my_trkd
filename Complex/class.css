@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+.bordered
+{
+	border: solid black 1px;
+	padding: 5px;
+}
+
+.floatingList
+{
+	float: right;
+	border: solid black 1px;
+	padding: 5px;
+	margin-left: 5px;
+	width: 200px;
+}
+
+.error
+{
+	color: red;
+}
+
+.note
+{
+	font-size: small;
+	color: gray;
+}
+
+.mandatory
+{
+	color: red;
+	font-weight: bold;
+}

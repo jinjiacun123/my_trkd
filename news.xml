@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+    <s:Header>
+        <a:Action s:mustUnderstand="1">http://www.reuters.com/ns/2006/05/01/webservices/rkd/News_1/RetrieveHeadlineML_1_Reply</a:Action>
+        <CacheResponse xsi:type="DoNotStoreCacheResponse" xmlns="http://www.reuters.com/ns/2008/03/01/webservices/rkd/Cache_1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <Date>2016-01-05T10:51:31.9084594Z</Date>
+            <DoNotStore />
+        </CacheResponse>
+    </s:Header>
+    <s:Body>
+        <ns0:RetrieveHeadlineML_Response_1 xmlns:ns0="http://www.reuters.com/ns/2006/05/01/webservices/rkd/News_1" xmlns:ns1="http://www.reuters.com/ns/2006/05/01/webservices/rkd/News_1">
+            <ns0:HeadlineMLResponse>
+                <ns0:Status>
+                    <ns0:StatusMsg>OK</ns0:StatusMsg>
+                    <ns0:StatusCode>0</ns0:StatusCode>
+                </ns0:Status>
+                <ns0:Context>
+                    <ns0:Newer>2016-01-05T10:40:01+00:00</ns0:Newer>
+                    <ns0:Older>2016-01-03T12:36:02+00:00</ns0:Older>
+                </ns0:Context>
+                <ns0:HEADLINEML xmlns="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160103:nRTVbY76</ID>
+                        <RE>3</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-03T12:36:02-00:00</CT>
+                        <RT>2016-01-03T12:36:02-00:00</RT>
+                        <LT>2016-01-03T13:16:26-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>RTRS</AT>
+                        <UR>4</UR>
+                        <LN>en</LN>
+                        <HT>Reuters Insider - Trading at Noon: Netflix, Amazon big 2015 winners</HT>
+                        <TY>story</TY>
+                        <PE>437</PE>
+                        <CO>FCX.N FOSL.O GE.N COST.O UTX.N HD.N CVX.N NFLX.O AXP.N GS.N NVDA.O MSFT.O AFSE.PK ATVI.O WMT.N CAT.N VRSN.O NKE.N SWN.N CNX.N MCD.N AMZN.O CHK.N</CO>
+                        <TO>AMED CAFE ENTS RTRS INDG BMAT EXCA ENER CYCP HLTH DFIN CYCS HMAC COM FRX DEPT AERO APPA BACT GEN WEU MCE AMERS EXPL CMPNY HOBY CLJ BASMTL HECA FOBE ECI EUROPE DISC FINS EUROP FUND COAM ASIA EMRG HELE COFS BISV DBT LEN CH HPRD CHIP AFR BSVC CN CONG CCOS CEEU</TO>
+                        <NI></NI>
+                        <TN>2</TN>
+                        <PD>RITV</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160104:nBWP3Tjzz7</ID>
+                        <RE>2</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-04T08:36:27-00:00</CT>
+                        <RT>2016-01-04T08:36:27-00:00</RT>
+                        <LT>2016-01-04T08:36:29-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>AWP</AT>
+                        <UR>4</UR>
+                        <LN>de</LN>
+                        <HT>Nokia sichert sich Kontrolle 眉ber Alcatel-Lucent</HT>
+                        <TY>story</TY>
+                        <PE>481</PE>
+                        <CO>ERICb.ST ALUA.PA MSFT.O NOKIA.HE</CO>
+                        <TO>EZC AWP LDE CMPNY COMS NEWR DEAL1 FR HSGD TEEQ TECH REG EUROPE FI CYCP US SE SWIT CYCS EUROP CELE NORD MRG BACT WEU SOFW TCOM AMERS</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD>AWPX</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160104:nBWP8RZ643</ID>
+                        <RE>2</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-04T08:40:04-00:00</CT>
+                        <RT>2016-01-04T08:40:04-00:00</RT>
+                        <LT>2016-01-04T08:40:07-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>AWP</AT>
+                        <UR>4</UR>
+                        <LN>de</LN>
+                        <HT>Facebook-Gr眉nder Zuckerberg will sich Computer-Butler programmieren &lt;Origin Href="QuoteRef"&gt;FB.O&lt;/Origin&gt; &lt;Origin Href="QuoteRef"&gt;MSFT.O&lt;/Origin&gt;</HT>
+                        <TY>story</TY>
+                        <PE>481</PE>
+                        <CO>FB.O MSFT.O</CO>
+                        <TO>EZC US CYCP SWIT AWP CYCS EUROP CELE CMPNY LDE SCI HSGD GEN WEU TECH DE SOFW ITSE EUROPE AMERS CEEU</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD>AWPX</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160104:nL1N14O0TA</ID>
+                        <RE>3</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-04T15:00:27-00:00</CT>
+                        <RT>2016-01-04T15:03:07-00:00</RT>
+                        <LT>2016-01-04T15:03:08-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>RTRS</AT>
+                        <UR>4</UR>
+                        <LN>en</LN>
+                        <HT>Microsoft&amp;apos;s latest operating system running on 200 million devices</HT>
+                        <TY>story</TY>
+                        <PE>511 301 376 394 408 416 433 452 458</PE>
+                        <CO>MSFT.O</CO>
+                        <TO>US SWIT RES SOCI CMPNY LIF LEN RTRS NEWS1 CHIP GEN BACT COMP TEEQ TECH RESF SOFW SEMI AMERS</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD>U E RNP PSC DNP PCU PCO NAW</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160104:nL8N14O2MA</ID>
+                        <RE>2</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-04T15:36:40-00:00</CT>
+                        <RT>2016-01-04T15:36:40-00:00</RT>
+                        <LT>2016-01-04T15:36:42-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>RTRS</AT>
+                        <UR>4</UR>
+                        <LN>es</LN>
+                        <HT>La 煤ltima versi贸n de Microsoft ya opera en 200 millones de dispositivos</HT>
+                        <TY>story</TY>
+                        <PE>511 376 441</PE>
+                        <CO>MSFT.O</CO>
+                        <TO>US SWIT RES SOCI CMPNY LIF RTRS GEN CHIP BACT COMP TEEQ TECH RESF SOFW SEMI LES AMERS</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD>DNP SP</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160104:nL1N14O0VD</ID>
+                        <RE>2</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-04T15:43:40-00:00</CT>
+                        <RT>2016-01-04T15:43:40-00:00</RT>
+                        <LT>2016-01-04T15:43:43-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>RTRS</AT>
+                        <UR>4</UR>
+                        <LN>en</LN>
+                        <HT>UPDATE 1-Microsoft&amp;apos;s latest operating system running on 200 million devices</HT>
+                        <TY>story</TY>
+                        <PE>511 301 376 394 408 416 433 452 458</PE>
+                        <CO>AAPL.O NFLX.O MSFT.O</CO>
+                        <TO>CMPNY RSPC LIF MDIA RTRS COMP TEEQ TECH RESF SEMI ITSE SHOPAL US SWIT RES SOCI CYCS SHOP LEN NEWS1 GEN CHIP BACT RETE SOFW SHOW HARW CCOS AMERS</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD>U E RNP PSC DNP PCU PCO NAW</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160104:nL1N14O0XR</ID>
+                        <RE>2</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-04T16:08:53-00:00</CT>
+                        <RT>2016-01-04T16:08:53-00:00</RT>
+                        <LT>2016-01-04T16:08:58-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>RTRS</AT>
+                        <UR>4</UR>
+                        <LN>es</LN>
+                        <HT>Sistema operativo m谩s reciente de Microsoft ya funciona en 200 millones de dispositivos</HT>
+                        <TY>story</TY>
+                        <PE>511 376 477</PE>
+                        <CO>MSFT.O</CO>
+                        <TO>HOY US RTRS SWIT GEN WWW SOCI TECH CMPNY SOFW LES AMERS</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD>DNP AEN</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160104:nL1N14O107</ID>
+                        <RE>2</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-04T16:20:07-00:00</CT>
+                        <RT>2016-01-04T16:20:07-00:00</RT>
+                        <LT>2016-01-04T16:20:10-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>RTRS</AT>
+                        <UR>4</UR>
+                        <LN>pt</LN>
+                        <HT>Sistema operacional Windows 10 funciona em 200 milh玫es de dispositivos</HT>
+                        <TY>story</TY>
+                        <PE>511 376 422</PE>
+                        <CO>MSFT.O</CO>
+                        <TO>US SWIT RTRS BR LPT TECH SOFW CMPNY LATAM EMRG AMERS</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD>DNP BRS</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160104:nL8N14O36L</ID>
+                        <RE>2</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-04T17:55:44-00:00</CT>
+                        <RT>2016-01-04T17:55:44-00:00</RT>
+                        <LT>2016-01-04T17:55:46-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>RTRS</AT>
+                        <UR>4</UR>
+                        <LN>fr</LN>
+                        <HT>Microsoft dit que Windows 10 茅quipe 200 millions d&amp;apos;appareils</HT>
+                        <TY>story</TY>
+                        <PE>511 376 467 473 475</PE>
+                        <CO>MSFT.O</CO>
+                        <TO>US RTRS SWIT LFR TECH CMPNY SOFW AMERS</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD>FA DNP SWF FB</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160104:nRTVbZK4</ID>
+                        <RE>2</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-04T21:54:01-00:00</CT>
+                        <RT>2016-01-04T21:54:01-00:00</RT>
+                        <LT>2016-01-04T21:54:03-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>CNBC</AT>
+                        <UR>4</UR>
+                        <LN>en</LN>
+                        <HT>Reuters Insider - Saudi Arabia, Iran, Apple: Week in Review</HT>
+                        <TY>story</TY>
+                        <PE>437</PE>
+                        <CO>NFLX.O AMZN.O MSFT.O</CO>
+                        <TO>CRU EEU MEAST ENR MDIA GDP DE TECH ITSE CYCP US CYCS STX CELE IR COM DEPT SHOP POL PEPS BACT GEN WEU MCE SHOW NRG AMERS EZC CMPNY PSVC PMI HSGD CNBC WWW ECI NCYC EUROPE SHOPAL MTVID DISC CISC SWIT SOCI EUROP DIP EMRG ASIA RGEN LEN RU SOFW CN SA CCOS CEEU</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD>RITV</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160104:nRTVbZLj</ID>
+                        <RE>2</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-04T22:49:24-00:00</CT>
+                        <RT>2016-01-04T22:49:24-00:00</RT>
+                        <LT>2016-01-04T22:49:27-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>IBD</AT>
+                        <UR>4</UR>
+                        <LN>en</LN>
+                        <HT>Reuters Insider - Dow Plunges 276 Points, China Trading Halted</HT>
+                        <TY>story</TY>
+                        <PE>437</PE>
+                        <CO>FB.O NFLX.O AMZN.O MSFT.O</CO>
+                        <TO>CMPNY PSVC IBD MDIA WWW TECH NCYC ITSE SHOPAL MTVID DISC US SWIT CYCS SOCI STX EMRG DEPT ASIA RGEN SHOP LEN PEPS GEN SOFW SHOW CN CCOS AMERS</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD>RITV</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160105:nL3T14P02B</ID>
+                        <RE>2</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-05T00:38:52-00:00</CT>
+                        <RT>2016-01-05T00:38:52-00:00</RT>
+                        <LT>2016-01-05T00:38:54-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>RTRS</AT>
+                        <UR>4</UR>
+                        <LN>zh</LN>
+                        <HT>缇庡湅鍊嬭偂锛氬井杌熸渶鏂版搷浣滅郴绲盬indows 10宸插湪2鍎勫彴瑷倷涓婂暉鐢�</HT>
+                        <TY>story</TY>
+                        <PE>511 283 315 376 486</PE>
+                        <CO>AAPL.O NFLX.O MSFT.O</CO>
+                        <TO>CMPNY RSPC LIF MDIA RTRS COMP TEEQ RESF TECH SEMI ITSE SHOPAL US SWIT RES SOCI CYCS SHOP NEWS1 CHIP BACT GEN RETE SOFW SHOW HARW CCOS LZH AMERS</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD>DNP CDS CMN CLN</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160105:nRTVbZLK</ID>
+                        <RE>3</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-05T09:21:01-00:00</CT>
+                        <RT>2016-01-05T09:21:01-00:00</RT>
+                        <LT>2016-01-05T10:01:25-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>RTRS</AT>
+                        <UR>4</UR>
+                        <LN>en</LN>
+                        <HT>Reuters Insider - Mark Zuckerberg鈥檚 2016 Challenge: Code an AI Assistant</HT>
+                        <TY>story</TY>
+                        <PE>9415</PE>
+                        <CO>FB.O GOOGL.O MSFT.O</CO>
+                        <TO>US SWIT CYCS SOCI CMPNY LEN MDIA RTRS BACT GEN WWW TEEQ TECH SOFW ITSE CCOS MTVID AMERS</TO>
+                        <NI></NI>
+                        <TN>2</TN>
+                        <PD>RIDJC</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160105:nL3N14P2X3</ID>
+                        <RE>2</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-05T09:58:52-00:00</CT>
+                        <RT>2016-01-05T09:58:52-00:00</RT>
+                        <LT>2016-01-05T09:58:57-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>RTRS</AT>
+                        <UR>4</UR>
+                        <LN>en</LN>
+                        <HT>China regulator queries Microsoft on findings in anti-trust probe</HT>
+                        <TY>story</TY>
+                        <PE>511 301 376 394 408 416 433 445 452 458</PE>
+                        <CO>MSFT.O</CO>
+                        <TO>US SWIT SOCI CMPNY MONOP EMRG ASIA LEN RTRS GEN BACT WWW TECH SOFW REGS CN AMERS</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD>U E RNP PSC DNP PCU PCO NAW Z</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:onlinereport.com:20160105:nRTROPT20160105100212KBN0UJ0TR</ID>
+                        <RE>1</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-05T10:02:12-00:00</CT>
+                        <RT>2016-01-05T10:02:12-00:00</RT>
+                        <LT>2016-01-05T10:02:50-00:00</LT>
+                        <PR>onlinereport.com</PR>
+                        <AT>IDS</AT>
+                        <UR>4</UR>
+                        <LN>en</LN>
+                        <HT>China regulator queries Microsoft on findings in anti-trust probe</HT>
+                        <TY>story</TY>
+                        <PE>6858 99999</PE>
+                        <CO></CO>
+                        <TO>OLCABUS_SPO f US OLCABUS a OLCABUS_US CMPNY MSFT.O SCI MONOP i ASIA EMRG USA OLRTXT BACT WWW TEXT TECH CHN SOFW REGS CN</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD></PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:onlinereport.com:20160105:nRTROPT20160105100720KBN0UJ0U7</ID>
+                        <RE>1</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-05T10:07:20-00:00</CT>
+                        <RT>2016-01-05T10:07:20-00:00</RT>
+                        <LT>2016-01-05T10:08:31-00:00</LT>
+                        <PR>onlinereport.com</PR>
+                        <AT>IDS</AT>
+                        <UR>4</UR>
+                        <LN>en</LN>
+                        <HT>China regulator queries Microsoft on findings in anti-trust probe</HT>
+                        <TY>story</TY>
+                        <PE>2882 99999</PE>
+                        <CO></CO>
+                        <TO>US CMPNY MSFT.O SCI MONOP ASIA EMRG OLGBBUS_SPO USA OLRTXT BACT OLGBBUS_US WWW TEXT TECH SOFW CHN REGS FIN OLGBBUS CN</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD></PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160105:nL3T14P3DH</ID>
+                        <RE>2</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-05T10:24:51-00:00</CT>
+                        <RT>2016-01-05T10:24:51-00:00</RT>
+                        <LT>2016-01-05T10:24:54-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>RTRS</AT>
+                        <UR>4</UR>
+                        <LN>zh</LN>
+                        <HT>涓湅鍙嶅鏂凤細宸ュ晢绺藉眬灏嶅井杌熷強鍏跺ぇ涓彲鍗€鏈夐棞璨犺铂浜洪€茶鍙嶅鏂疯鍟忚鏌�</HT>
+                        <TY>story</TY>
+                        <PE>511 283 315 376 486</PE>
+                        <CO>2196.HK 600637.SS 600196.SS MSFT.O BBDb.TO</CO>
+                        <TO>HK LAW PHAG CMPNY CLJ INDS CRIM CA MONOP HECA ACB MDIA RTRS INDG TECH FRAUD1 REGS PHMR US SWIT BCST STX CYCS COM ASIA EMRG AERO GEN BACT PHAR SOFW CN LZH CCOS AMERS</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD>DNP CDS CMN CLN</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160105:nRTVbZMq</ID>
+                        <RE>2</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-05T10:33:03-00:00</CT>
+                        <RT>2016-01-05T10:33:03-00:00</RT>
+                        <LT>2016-01-05T10:33:05-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>CNBC</AT>
+                        <UR>4</UR>
+                        <LN>en</LN>
+                        <HT>Reuters Insider - &amp;apos;The new year started with a whimper&amp;apos;</HT>
+                        <TY>story</TY>
+                        <PE>437</PE>
+                        <CO>MSFT.O AMZN.O</CO>
+                        <TO>CRU EZC CMPNY ENR FOBE CDM CNBC WWW TECH ECI NCYC EUROPE SHOPAL PINV MTVID DISC US SWIT STX SOCI CYCS EUROP IT COM FRX EMRG DEPT ASIA SHOP DBT RGEN LEN GEN WEU MCE SOFW CN NRG AMERS</TO>
+                        <NI></NI>
+                        <TN>1</TN>
+                        <PD>RITV</PD>
+                    </HL>
+                    <HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml">
+                        <ID>urn:newsml:reuters.com:20160105:nRTVbZMb</ID>
+                        <RE>3</RE>
+                        <ST>Usable</ST>
+                        <CT>2016-01-05T10:40:01-00:00</CT>
+                        <RT>2016-01-05T10:40:01-00:00</RT>
+                        <LT>2016-01-05T10:40:06-00:00</LT>
+                        <PR>reuters.com</PR>
+                        <AT>CNBC</AT>
+                        <UR>4</UR>
+                        <LN>en</LN>
+                        <HT>Reuters Insider - Is 2016 the year for FANG stocks?</HT>
+                        <TY>story</TY>
+                        <PE>437</PE>
+                        <CO>FB.O GOOGL.O NFLX.O AMZN.O MSFT.O INTC.O NOK1V.HE TSLA.O</CO>
+                        <TO>EEU CMPNY INDS COMS PSVC MDIA WWW CNBC TEEQ TECH SEMI NCYC ITSE EUROPE SHOPAL MTVID DISC US SWIT RES CISC CARM STX SOCI CYCS EUROP CMSS BSUP EMRG DEPT ASIA AUTO RGEN SHOP LEN PEPS RU GEN BACT CHIP DIV SOFW SHOW ISER CCOS AMERS CEEU</TO>
+                        <NI></NI>
+                        <TN>2</TN>
+                        <PD>RITV</PD>
+                    </HL>
+                </ns0:HEADLINEML>
+            </ns0:HeadlineMLResponse>
+        </ns0:RetrieveHeadlineML_Response_1>
+    </s:Body>
+</s:Envelope>
