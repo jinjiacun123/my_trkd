@@ -14,7 +14,7 @@ $client = new SoapClient("http://api.trkd.thomsonreuters.com/schemas/wsdl/TokenM
 $createTokenRequest = array(
    'ApplicationID' => 'trkddemoappwm',
    'Username' => 'trkd-demo-wm@thomsonreuters.com',
-   'Password' => 's4j9u82us'
+   'Password' => 't7c9k32db'
 );
 $wsAddressingHeaders = array(
       new SoapHeader('http://www.w3.org/2005/08/addressing', 'To', 'https://api.rkd.reuters.com/api/2006/05/01/TokenManagement_1.svc/Anonymous'),

@@ -1,5 +1,6 @@
 <?php
 $url = 'http://192.168.1.248:86/ReutersHandler.ashx';
+$url1 = 'http://192.168.1.38:8011/NewInsertArticle.asmx?wsdl';
 $header[] = 'Source: cngold.com.cn';
 #$header[] = 'Content-Type: application/x-www-form-urlencoded';
 $header[] = 'User-Agent: CngoldClient/1.0';
@@ -46,6 +47,27 @@ function post_news($newscontent, $classname)
 		'classname'=>$classname,
 	);
 	return my_post1($url, $param, $header);
+}
+
+function post_long_news($title, $content)
+{
+	global $url1;
+	/* Step1:初始化SoapClient对象 */
+	#$wcfURL = 'http://192.168.1.38:8011/NewInsertArticle.asmx?wsdl';
+	$wcfURL = $url1;
+	$wcfClient = new SoapClient ( $wcfURL );
+
+	#$result = $wcfClient->AddNews($body);
+	#$result = $wcfClient->Get($body);
+	$params = array(
+		'jsonContent'=>json_encode(array(
+					'New_Title'=>$title,
+					'New_Content'=>$content
+			))	
+	);
+	$result = $wcfClient->__soapCall('JsonInsertArtinfo',array('parameters'=>$params));
+	#print_r($result);
+	return $result->JsonInsertArtinfoResult;
 }
 
 function post_data($title, $before, $prediction, $result, $country, $rank=1)

@@ -21,17 +21,23 @@
     
     #print_r($data);    
     $list = $data['s:Envelope']['s:Body']['ns0:RetrieveHeadlineML_Response_1']['ns0:HeadlineMLResponse']['ns0:HEADLINEML']['HL'];
+    
     #print_r($list);
-    $rows = count($list);
-    for($index = 0; $index<$rows/2;$index++)
+    
+    if(is_array($list[0]))
     {
-    	$to = $list[$index]['TO'];
-    	$id = $list[$index]['ID'];
-    	$re_list[] = array(
-    		'id'=>$id,
-    		'to'=>$to,
-    	);
-    }
+        $rows = count($list);
+        for($index = 0; $index<$rows/2;$index++)
+        {
+            $to = $list[$index]['TO'];
+            $id = $list[$index]['ID'];
+            $re_list[] = array(
+                'id'=>$id,
+                'to'=>$to,
+            );
+        }    
+    }    
+    
     #print_r($re_list);
     
 
@@ -82,5 +88,6 @@
     foreach($re_list as $v)
     {
     	print_r(post_news($v['title'], $v['classname']));
+        print_r(post_long_news($v['title'], $v['content']));
     }
     ?>  

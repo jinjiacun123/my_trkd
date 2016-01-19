@@ -80,7 +80,7 @@ class RetrieveHeadlinesML1Response
 	}
 }
 
-$begin_time = date('Y-m-d',strtotime('-10 day')).'T00:00:00';
+$begin_time = date('Y-m-d',strtotime('-15 day')).'T00:00:00';
 $end_time = date('Y-m-d').'T00:00:00';
 
 /**
