@@ -1141,277 +1141,277 @@
   ),
   'EUBUSC=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '商业景气指数',
     'priviege' => '3',
   ),
   'EUBUSS=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '工业信心指数',
     'priviege' => '3',
   ),
   'EUCOIN=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '消费者通胀预期',
     'priviege' => '1',
   ),
   'EUCONF=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '消费者信心指数初值',
     'priviege' => '3',
   ),
   'EUCONS=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '消费者信心指数终值',
     'priviege' => '3',
   ),
   'EUCPIX=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '消费者物价调和指数(月率)',
     'priviege' => '3',
   ),
   'EUCPXY=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '消费者物价调和指数(年率)',
     'priviege' => '5',
   ),
   'EUCURA=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '未季调经常账户(欧元)',
     'priviege' => '3',
   ),
   'EUCURU=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '季调后经常账户(欧元)',
     'priviege' => '3',
   ),
   'EUECBD=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '欧洲央行存款利率',
     'priviege' => '5',
   ),
   'EUECBR=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '欧洲央行再融资利率',
     'priviege' => '5',
   ),
   'EUECOS=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '经济信心指数',
     'priviege' => '3',
   ),
   'EUEMPQ=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '季调后就业人数(季率)',
     'priviege' => '3',
   ),
   'EUEMPY=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '季调后就业人数(年率)',
     'priviege' => '3',
   ),
   'EUGDF=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '国内生产总值初值(季率)',
     'priviege' => '5',
   ),
   'EUGDFY=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '国内生产总值初值(年率)',
     'priviege' => '5',
   ),
   'EUGDP=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '国内生产总值修正值(季率)',
     'priviege' => '5',
   ),
   'EUGDPY=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '国内生产总值修正值(年率)',
     'priviege' => '5',
   ),
   'EUHIC=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '调和消费者物价指数(月率)',
     'priviege' => '3',
   ),
   'EUHICY=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '调和消费者物价指数(年率)',
     'priviege' => '5',
   ),
   'EUHIX=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '核心消费者物价指数(月率)',
     'priviege' => '3',
   ),
   'EUHIXY=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '核心消费者物价指数(年率)',
     'priviege' => '5',
   ),
   'EUINSP=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '销售价格预期',
     'priviege' => '1',
   ),
   'EUIOM=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '工业订单(月率)',
     'priviege' => '3',
   ),
   'EUIOY=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '工业订单(年率)',
     'priviege' => '3',
   ),
   'EUIP=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '工业产出(月率)',
     'priviege' => '3',
   ),
   'EUIPY=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '工业产出(年率)',
     'priviege' => '3',
   ),
   'EULBRC=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '劳动力成本(年率)',
     'priviege' => '1',
   ),
   'EUM3=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '货币供应M3(年率)',
     'priviege' => '1',
   ),
   'EUM3PC=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '私营企业贷款(年率)',
     'priviege' => '1',
   ),
   'EUPINV=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '投资组合净流入(亿欧元)',
     'priviege' => '1',
   ),
   'EUPMCF=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => 'Markit综合采购经理人指数初值',
     'priviege' => '3',
   ),
   'EUPMI=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => 'Markit制造业采购经理人指数终值',
     'priviege' => '3',
   ),
   'EUPMIP=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => 'Markit综合采购经理人指数终值',
     'priviege' => '3',
   ),
   'EUPMIS=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => 'Markit服务业采购经理人指数终值',
     'priviege' => '3',
   ),
   'EUPMMF=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => 'Markit制造业采购经理人指数初值',
     'priviege' => '3',
   ),
   'EUPMSF=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => 'Markit服务业采购经理人指数初值',
     'priviege' => '3',
   ),
   'EUPPI=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '生产者物价指数(月率)',
     'priviege' => '3',
   ),
   'EUPPIY=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '生产者物价指数(年率)',
     'priviege' => '5',
   ),
   'EURSL=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '零售销售(月率)',
     'priviege' => '5',
   ),
   'EURSLY=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '零售销售(年率)',
     'priviege' => '3',
   ),
   'EUSERS=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '服务业信心指数',
     'priviege' => '3',
   ),
   'EUSTCS=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => 'Sentix投资者信心指数',
     'priviege' => '1',
   ),
   'EUTBAL=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '未季调贸易帐(十亿欧元)',
     'priviege' => '3',
   ),
   'EUUNR=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '失业率',
     'priviege' => '5',
   ),
   'EUWAGY=ECI' => 
   array (
-    'country' => NULL,
+    'country' => '欧元区',
     'title' => '欧元区薪资水平',
     'priviege' => '1',
   ),
@@ -3109,85 +3109,85 @@
   ),
   'SGCPI=ECI' => 
   array (
-    'country' => '乌干达',
+    'country' => '新加坡',
     'title' => '消费者物价指数(月率)',
     'priviege' => '3',
   ),
   'SGCPIY=ECI' => 
   array (
-    'country' => '乌干达',
+    'country' => '新加坡',
     'title' => '消费者物价指数(年率)',
     'priviege' => '3',
   ),
   'SGFXR=ECI' => 
   array (
-    'country' => '乌干达',
+    'country' => '新加坡',
     'title' => '外汇储备(亿美元)',
     'priviege' => '3',
   ),
   'SGGDPQ=ECI' => 
   array (
-    'country' => '乌干达',
+    'country' => '新加坡',
     'title' => 'GDP(季率)',
     'priviege' => '3',
   ),
   'SGGDQY=ECI' => 
   array (
-    'country' => '乌干达',
+    'country' => '新加坡',
     'title' => 'GDP(年率)',
     'priviege' => '3',
   ),
   'SGLEND=ECI' => 
   array (
-    'country' => '乌干达',
+    'country' => '新加坡',
     'title' => '银行贷款(月率)',
     'priviege' => '1',
   ),
   'SGMFG=ECI' => 
   array (
-    'country' => '乌干达',
+    'country' => '新加坡',
     'title' => '制造业产出(月率)',
     'priviege' => '3',
   ),
   'SGMFGY=ECI' => 
   array (
-    'country' => '乌干达',
+    'country' => '新加坡',
     'title' => '制造业产出(年率)',
     'priviege' => '3',
   ),
   'SGPMI=ECI' => 
   array (
-    'country' => '乌干达',
+    'country' => '新加坡',
     'title' => '采购经理人指数',
     'priviege' => '3',
   ),
   'SGRSL=ECI' => 
   array (
-    'country' => '乌干达',
+    'country' => '新加坡',
     'title' => '零售销售(月率)',
     'priviege' => '3',
   ),
   'SGRSLY=ECI' => 
   array (
-    'country' => '乌干达',
+    'country' => '新加坡',
     'title' => '零售销售(年率)',
     'priviege' => '3',
   ),
   'SGUNRF=ECI' => 
   array (
-    'country' => '乌干达',
+    'country' => '新加坡',
     'title' => '季调后失业率',
     'priviege' => '3',
   ),
   'SGXOIL=ECI' => 
   array (
-    'country' => '乌干达',
+    'country' => '新加坡',
     'title' => '季调后非石油产品出口(月率)',
     'priviege' => '1',
   ),
   'SGXOILY=ECI' => 
   array (
-    'country' => '乌干达',
+    'country' => '新加坡',
     'title' => '非石油产品出口(年率)',
     'priviege' => '1',
   ),
@@ -4264,11 +4264,5 @@
     'country' => '南非',
     'title' => '基准利率',
     'priviege' => '3',
-  ),
-  '' => 
-  array (
-    'country' => NULL,
-    'title' => NULL,
-    'priviege' => NULL,
   ),
 );

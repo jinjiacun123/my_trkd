@@ -1,4 +1,6 @@
 <?php
+error_reporting(0);
+set_time_limit(180000);
 include_once('lib/lib.php');
 include_once('lib/lib_xml.php');
 
@@ -58,13 +60,34 @@ $re_list = Array (
 
 #提交post数据
 include_once('post_data.php');
+#print_r($re_list);
 #($title, $before, $prediction, $result, $country, $rank=1)
 if('' != $re_list['CF_YIELD']
 && '' != $re_list['CF_CLOSE']
 && '' != $re_list['CF_LAST'])
 {
-	print_r(post_data($re_list['title'], $re_list['CF_CLOSE'], $re_list['CF_LAST'], $re_list['CF_YIELD'], $re_list['country'], $re_list['right']));	
+	post_data($re_list['title'], $re_list['CF_CLOSE'], $re_list['CF_LAST'], $re_list['CF_YIELD'], $re_list['country'], $re_list['right']);
+	#print_r(post_data($re_list['title'], $re_list['CF_CLOSE'], $re_list['CF_LAST'], $re_list['CF_YIELD'], $re_list['country'], $re_list['right']));	
 }
 
 
+
 file_put_contents('ric_index.log', ($ric_index+1)%$max);
+$r_url = 'http://localhost/sample_api/cnglod/redirect.php';
+if($ric_index<711 || 0 == $ric_index)
+{
+	sleep(10);
+    #$url = "http://bbs.lampbrother.net";  
+    echo "<script language='javascript' 
+    type='text/javascript'>";  
+    echo "window.location.href='$r_url'";  
+    echo "</script>";  
+    
+    #header("location:http://localhost/sample_api/cnglod/redirect.php");
+}
+else
+{
+	echo '跑结束';
+}
+#	header("location:http://localhost/sample_api/cnglod/redirect.php");}
+ ?> 

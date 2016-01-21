@@ -87,7 +87,7 @@
     include(dirname(__FILE__).'/post_data.php');
     foreach($re_list as $v)
     {
-    	print_r(post_news($v['title'], $v['classname']));
+    	#print_r(post_news($v['title'], $v['classname']));
         print_r(post_long_news($v['title'], $v['content']));
     }
     ?>  
