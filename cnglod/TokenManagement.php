@@ -6,15 +6,16 @@
 //in a particular environment; it is offered solely as sample code for guidance.
 //Please see the Thomson Reuters Knowledge Direct product page at http://customers.thomsonreuters.com
 //for additional information regarding the TRKD API.
+include_once('config.php');
 ini_set("soap.wsdl_cache_enabled", 0);
 #http://api.trkd.thomsonreuters.com/
 #$client = new SoapClient("http://api.rkd.reuters.com/schemas/wsdl/TokenManagement/TokenManagement_1_HttpsAndAnonymous.wsdl", array('soap_version' => SOAP_1_2));
 $client = new SoapClient("http://api.trkd.thomsonreuters.com/schemas/wsdl/TokenManagement/TokenManagement_1_HttpsAndAnonymous.wsdl", array('soap_version' => SOAP_1_2));
 #$client = new SoapClient("http://api.rkd.reuters.com/schemas/wsdl/TokenManagement_1_HttpsAndAnonymous.wsdl", array('soap_version' => SOAP_1_2));
 $createTokenRequest = array(
-   'ApplicationID' => 'trkddemoappwm',
-   'Username' => 'trkd-demo-wm@thomsonreuters.com',
-   'Password' => 't7c9k32db'
+   'ApplicationID' => APPID,
+   'Username' => USER_NAME,
+   'Password' => PASSWORD
 );
 $wsAddressingHeaders = array(
       new SoapHeader('http://www.w3.org/2005/08/addressing', 'To', 'https://api.rkd.reuters.com/api/2006/05/01/TokenManagement_1.svc/Anonymous'),

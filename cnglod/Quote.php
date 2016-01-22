@@ -3,42 +3,14 @@ error_reporting(0);
 set_time_limit(180000);
 include_once('lib/lib.php');
 include_once('lib/lib_xml.php');
+include_once('config.php');
 
-#格式化字典
-$fmt_dict = array(
-	#季度
-	'Q1'=>'第一季度',
-	'Q2'=>'第二季度',
-	'Q3'=>'第二季度',
-	'Q4'=>'第二季度',
-	#月份
-	'Jan'=>'1月',
-	''=>'2月',
-	''=>'3月',
-	''=>'4月',
-	''=>'5月',
-	''=>'6月',
-	''=>'7月',
-	''=>'8月',
-	''=>'9月',
-	''=>'10月',
-	''=>'11月',
-	''=>'12月',
-	#上周
-	'w/e'=>'上周',
-	'N/A'=>''
-);
-
-#计量单位换算
-$opt_dict = array(
-
-);
 
 #货币
 $coin_dict = array();
 
 $eci_list = include_once('lib/eci.php');
-$max = 711;#最大循环条数
+$max = MAX_DATA_COUNT;#最大循环条数
 
 $ric_index = file_get_contents('ric_index.log');
 
@@ -58,13 +30,19 @@ foreach($eci_list as $k=>$v)
 }
 unset($k, $v);
 $status = 0;
-#print_r($ric);
-#die;
 
-$appid = 'trkddemoappwm';
+
 $token = file_get_contents('token.txt');
-
-$tmp_content = get_quotes($appid, $token, $ric);
+#判断token是否过期
+$tmp_content = get_quotes(APPID, $token, $ric);
+#Token expired
+while(strpos($tmp_content, "Token expired"))
+{
+	file_get_contents(TOKEN_URL);
+	$token = file_get_contents('token.txt');
+	$tmp_content = get_quotes(APPID, $token, $ric);
+	print_r($tmp_content);
+}
 $json_content =  $data=XML_unserialize($tmp_content);
 
 $obj = $json_content['s:Envelope']['s:Body']['ns1:RetrieveItem_Response_3']['ns1:ItemResponse']['omm:Item']['omm:Fields']['omm:Field'];
@@ -91,6 +69,7 @@ $old_field_list = array(
 );
 
 print_r($old_field_list);
+die;
 #格式化转换
 $fmt_field_list = array();
 
@@ -133,15 +112,20 @@ if('' != $re_list['CF_YIELD']
 && '' != $re_list['CF_CLOSE']
 && '' != $re_list['CF_LAST'])
 {
-	post_data($re_list['title'], $re_list['CF_CLOSE'], $re_list['CF_LAST'], $re_list['CF_YIELD'], $re_list['country'], $re_list['right']);
+	post_data($re_list['title'], 
+		      $re_list['CF_CLOSE'], 
+		      $re_list['CF_LAST'], 
+		      $re_list['CF_YIELD'], 
+		      $re_list['country'], 
+		      $re_list['right']);
 	#print_r(post_data($re_list['title'], $re_list['CF_CLOSE'], $re_list['CF_LAST'], $re_list['CF_YIELD'], $re_list['country'], $re_list['right']));	
 }
 
 
 
 file_put_contents('ric_index.log', ($ric_index+1)%$max);
-$r_url = 'http://localhost/sample_api/cnglod/redirect.php';
-if($ric_index<711 || 0 == $ric_index)
+$r_url = REDIRECT_URL;
+if($ric_index<MAX_DATA_COUNT || 0 == $ric_index)
 {
 	sleep(10);
     #$url = "http://bbs.lampbrother.net";  
