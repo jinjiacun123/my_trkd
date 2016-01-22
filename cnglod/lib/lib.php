@@ -77,13 +77,14 @@ function get_quotes($appid='trkddemoappwm', $token, $ric)
   <env:Body> 
     <ns1:RetrieveItem_Request_3>
       <ns1:ItemRequest Scope="List">
-		<ns1:Fields>CF_YIELD:CF_CLOSE:CF_LAST</ns1:Fields>
+		<ns1:Fields>CF_LAST:HST_CLOSE2:SEC_YLD_1:CTBTR_1LL:CF_DATE:CF_TIME:GV3_TEXT</ns1:Fields>
 		<ns1:RequestKey Name="%s" NameType="RIC"/>
 	  </ns1:ItemRequest>
     </ns1:RetrieveItem_Request_3>
   </env:Body> 
 </env:Envelope>
 xl;
+#CF_YIELD:CF_CLOSE:CF_LAST
 
 	$url = 'http://api.trkd.thomsonreuters.com/api/Quotes/Quotes.svc';
 	$header[] = 'Content-Type:application/soap+xml;';
