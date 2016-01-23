@@ -56,8 +56,8 @@
   'AUCOPT=ECI' => 
   array (
     'country' => '澳大利亚',
-    'title' => '公司税前利润',
-    'priviege' => '1',
+    'title' => '公司税前利润(季率)',
+    'priviege' => 1,
   ),
   'AUCPI=ECI' => 
   array (
@@ -80,8 +80,8 @@
   'AUCPRQ=ECI' => 
   array (
     'country' => '澳大利亚',
-    'title' => '公司利润',
-    'priviege' => '1',
+    'title' => '公司利润(季率)',
+    'priviege' => 1,
   ),
   'AUEMP=ECI' => 
   array (
@@ -134,14 +134,14 @@
   'AUGSE=ECI' => 
   array (
     'country' => '澳大利亚',
-    'title' => '货物/服务出口量',
-    'priviege' => '1',
+    'title' => '货物/服务出口量(月率)',
+    'priviege' => 1,
   ),
   'AUGSI=ECI' => 
   array (
     'country' => '澳大利亚',
-    'title' => '货物/服务进口量',
-    'priviege' => '1',
+    'title' => '货物/服务进口量(月率)',
+    'priviege' => 1,
   ),
   'AUHPI=ECI' => 
   array (
@@ -159,7 +159,7 @@
   array (
     'country' => '澳大利亚',
     'title' => '澳新银行网络招聘广告数量增长率',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'AUINVQ=ECI' => 
   array (
@@ -177,43 +177,43 @@
   array (
     'country' => '澳大利亚',
     'title' => 'AIG制造业采指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'AUNABC=ECI' => 
   array (
     'country' => '澳大利亚',
     'title' => 'NAB商业信心指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'AUNADS=ECI' => 
   array (
     'country' => '澳大利亚',
     'title' => '季调后ANZ报纸招聘广告数量(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'AUNHS=ECI' => 
   array (
     'country' => '澳大利亚',
     'title' => 'HIA私人住房销售(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'AUNMVS=ECI' => 
   array (
     'country' => '澳大利亚',
     'title' => '季调后新车销售(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'AUPHA=ECI' => 
   array (
     'country' => '澳大利亚',
     'title' => '私有房屋建筑许可',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'AUPNCE=ECI' => 
   array (
     'country' => '澳大利亚',
     'title' => '资本性支出',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'AUPPIQ=ECI' => 
   array (
@@ -231,7 +231,7 @@
   array (
     'country' => '澳大利亚',
     'title' => '季调后就业参与率',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'AURSL=ECI' => 
   array (
@@ -243,25 +243,25 @@
   array (
     'country' => '澳大利亚',
     'title' => 'AIG服务业采购经理人指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'AUTDMI=ECI' => 
   array (
     'country' => '澳大利亚',
-    'title' => 'TD-MI通胀指数',
-    'priviege' => '1',
+    'title' => 'TD-MI通胀指数(月率)',
+    'priviege' => 1,
   ),
   'AUWGPQ=ECI' => 
   array (
     'country' => '澳大利亚',
     'title' => '季调后薪资价格指数(季率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'AUWPIY=ECI' => 
   array (
     'country' => '澳大利亚',
     'title' => '季调后薪资价格指数(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'BRCBMP=ECI' => 
   array (
@@ -273,7 +273,7 @@
   array (
     'country' => '巴西',
     'title' => 'IPCA消费者物价指数(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'BRCPIY=ECI' => 
   array (
@@ -285,7 +285,7 @@
   array (
     'country' => '巴西',
     'title' => 'IPC-FIPE消费者物价指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'BRGDP=ECI' => 
   array (
@@ -303,7 +303,7 @@
   array (
     'country' => '巴西',
     'title' => '贸易帐(亿美元)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'BRUNR=ECI' => 
   array (
@@ -327,7 +327,7 @@
   array (
     'country' => '加拿大',
     'title' => '产能利用率',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'CACPI=ECI' => 
   array (
@@ -416,7 +416,7 @@
   'CAHSTA=ECI' => 
   array (
     'country' => '加拿大',
-    'title' => '新屋开工(千户)',
+    'title' => '新屋开工(万户)',
     'priviege' => '3',
   ),
   'CAIMP=ECI' => 
@@ -435,13 +435,13 @@
   array (
     'country' => '加拿大',
     'title' => '海外投资者净买入加拿大证券(亿加元)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'CAISEF=ECI' => 
   array (
     'country' => '加拿大',
     'title' => '加拿大投资者净买入海外证券(亿加元)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'CAIVSA=ECI' => 
   array (
@@ -453,25 +453,25 @@
   array (
     'country' => '加拿大',
     'title' => '先行指标(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'CALPR=ECI' => 
   array (
     'country' => '加拿大',
     'title' => '劳动生产率(季率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'CAMFGS=ECI' => 
   array (
     'country' => '加拿大',
     'title' => '制造业销售(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'CAPMIM=ECI' => 
   array (
     'country' => '加拿大',
     'title' => 'RBC制造业采购经理人指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'CAPPI=ECI' => 
   array (
@@ -489,7 +489,7 @@
   array (
     'country' => '加拿大',
     'title' => '就业参与率',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'CARAW=ECI' => 
   array (
@@ -524,7 +524,7 @@
   'CAWTRA=ECI' => 
   array (
     'country' => '加拿大',
-    'title' => '批发库存(月率)',
+    'title' => '批发销售(月率)',
     'priviege' => '3',
   ),
   'CAXAUT=ECI' => 
@@ -728,7 +728,7 @@
   'CNNYL=ECI' => 
   array (
     'country' => '中国',
-    'title' => '新增人民币贷款(十亿元)',
+    'title' => '新增人民币贷款(亿元)',
     'priviege' => '3',
   ),
   'CNPMIB=ECI' => 
@@ -776,7 +776,7 @@
   'CNTRD=ECI' => 
   array (
     'country' => '中国',
-    'title' => '贸易帐(十亿美元)',
+    'title' => '贸易帐(亿美元)',
     'priviege' => '5',
   ),
   'CNTYLY=ECI' => 
@@ -795,19 +795,19 @@
   array (
     'country' => '中国',
     'title' => '城市房地产价格(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEBUSC=ECI' => 
   array (
     'country' => '德国',
     'title' => 'IFO商业现状指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEBUSE=ECI' => 
   array (
     'country' => '德国',
     'title' => 'IFO商业预期指数 ',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEBUSS=ECI' => 
   array (
@@ -819,13 +819,13 @@
   array (
     'country' => '德国',
     'title' => 'GfK消费者信心指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DECPI=ECI' => 
   array (
     'country' => '德国',
     'title' => '消费者物价指数终值(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DECPIY=ECI' => 
   array (
@@ -837,7 +837,7 @@
   array (
     'country' => '德国',
     'title' => '消费者物价指数初值(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DECPPY=ECI' => 
   array (
@@ -849,7 +849,7 @@
   array (
     'country' => '德国',
     'title' => '季调后出口(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEGDF=ECI' => 
   array (
@@ -885,7 +885,7 @@
   array (
     'country' => '德国',
     'title' => '调和消费者物价指数终值(月率) ',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEHICY=ECI' => 
   array (
@@ -897,7 +897,7 @@
   array (
     'country' => '德国',
     'title' => '调和消费者物价指数初值(月率) ',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEHIPY=ECI' => 
   array (
@@ -909,25 +909,25 @@
   array (
     'country' => '德国',
     'title' => '进口物价指数(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEIMPY=ECI' => 
   array (
     'country' => '德国',
     'title' => '进口物价指数(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEIMY=ECI' => 
   array (
     'country' => '德国',
     'title' => '季调后进口物价指数(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEIND=ECI' => 
   array (
     'country' => '德国',
     'title' => '工业订单(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEIP=ECI' => 
   array (
@@ -939,7 +939,7 @@
   array (
     'country' => '德国',
     'title' => 'Markit综合采购经理指数初值 ',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEPMIF=ECI' => 
   array (
@@ -951,13 +951,13 @@
   array (
     'country' => '德国',
     'title' => 'Markit/BME制造业采购经理人指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEPMIP=ECI' => 
   array (
     'country' => '德国',
     'title' => 'Markit综合采购经理人指数终值',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEPMIS=ECI' => 
   array (
@@ -975,7 +975,7 @@
   array (
     'country' => '德国',
     'title' => '生产者物价指数(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEPPIY=ECI' => 
   array (
@@ -993,7 +993,7 @@
   array (
     'country' => '德国',
     'title' => '实际零售销售(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DETBAL=ECI' => 
   array (
@@ -1005,13 +1005,13 @@
   array (
     'country' => '德国',
     'title' => '未季调总失业人数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEUEMP=ECI' => 
   array (
     'country' => '德国',
     'title' => '季调总失业人数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEUNR=ECI' => 
   array (
@@ -1023,25 +1023,25 @@
   array (
     'country' => '德国',
     'title' => '季调后失业人数变化',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEWPI=ECI' => 
   array (
     'country' => '德国',
     'title' => '批发物价指数(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEWPIY=ECI' => 
   array (
     'country' => '德国',
     'title' => '批发物价指数(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEZEWC=ECI' => 
   array (
     'country' => '德国',
     'title' => 'ZEW大学经济现况指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'DEZEWS=ECI' => 
   array (
@@ -1053,91 +1053,91 @@
   array (
     'country' => '西班牙',
     'title' => '消费者物价指数(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ESCPIY=ECI' => 
   array (
     'country' => '西班牙',
     'title' => '消费者物价指数(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ESCURA=ECI' => 
   array (
     'country' => '西班牙',
-    'title' => '经常帐',
-    'priviege' => '1',
+    'title' => '经常帐(亿欧元)',
+    'priviege' => 1,
   ),
   'ESGDFQ=ECI' => 
   array (
     'country' => '西班牙',
     'title' => '预计国民生产总值(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ESGDFY=ECI' => 
   array (
     'country' => '西班牙',
     'title' => '预计国民生产总值(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ESGDPQ=ECI' => 
   array (
     'country' => '西班牙',
     'title' => '国内生产总值(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ESGDPY=ECI' => 
   array (
     'country' => '西班牙',
     'title' => '国内生产总值(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ESHICF=ECI' => 
   array (
     'country' => '西班牙',
     'title' => '调和消费者物价指数初值(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ESHICP=ECI' => 
   array (
     'country' => '西班牙',
     'title' => '调和消费者物价指数(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ESHICY=ECI' => 
   array (
     'country' => '西班牙',
     'title' => '调和消费者物价指数(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ESIO=ECI' => 
   array (
     'country' => '西班牙',
     'title' => '调整后工业产出(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ESPMIM=ECI' => 
   array (
     'country' => '西班牙',
     'title' => '制造业PMI',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ESPMIS=ECI' => 
   array (
     'country' => '西班牙',
     'title' => '服务业采购经理人指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ESRSLY=ECI' => 
   array (
     'country' => '西班牙',
     'title' => '零售销售(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ESUNR=ECI' => 
   array (
     'country' => '西班牙',
     'title' => '失业率',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'EUBUSC=ECI' => 
   array (
@@ -1155,7 +1155,7 @@
   array (
     'country' => '欧元区',
     'title' => '消费者通胀预期',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'EUCONF=ECI' => 
   array (
@@ -1208,7 +1208,7 @@
   'EUECOS=ECI' => 
   array (
     'country' => '欧元区',
-    'title' => '经济信心指数',
+    'title' => '经济景气指数',
     'priviege' => '3',
   ),
   'EUEMPQ=ECI' => 
@@ -1225,7 +1225,7 @@
   ),
   'EUGDF=ECI' => 
   array (
-    'country' => '欧元区',
+    'country' => NULL,
     'title' => '国内生产总值初值(季率)',
     'priviege' => '5',
   ),
@@ -1271,12 +1271,6 @@
     'title' => '核心消费者物价指数(年率)',
     'priviege' => '5',
   ),
-  'EUINSP=ECI' => 
-  array (
-    'country' => '欧元区',
-    'title' => '销售价格预期',
-    'priviege' => '1',
-  ),
   'EUIOM=ECI' => 
   array (
     'country' => '欧元区',
@@ -1305,25 +1299,25 @@
   array (
     'country' => '欧元区',
     'title' => '劳动力成本(年率)',
-    'priviege' => '1',
+    'priviege' => '欧元区',
   ),
   'EUM3=ECI' => 
   array (
     'country' => '欧元区',
     'title' => '货币供应M3(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'EUM3PC=ECI' => 
   array (
     'country' => '欧元区',
     'title' => '私营企业贷款(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'EUPINV=ECI' => 
   array (
     'country' => '欧元区',
     'title' => '投资组合净流入(亿欧元)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'EUPMCF=ECI' => 
   array (
@@ -1395,7 +1389,7 @@
   array (
     'country' => '欧元区',
     'title' => 'Sentix投资者信心指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'EUTBAL=ECI' => 
   array (
@@ -1413,7 +1407,7 @@
   array (
     'country' => '欧元区',
     'title' => '欧元区薪资水平',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'FRBUDY=ECI' => 
   array (
@@ -1430,7 +1424,7 @@
   'FRCOMP=ECI' => 
   array (
     'country' => '法国',
-    'title' => '商业景气指数',
+    'title' => 'INSEE商业信心指数',
     'priviege' => '3',
   ),
   'FRCONC=ECI' => 
@@ -1449,7 +1443,7 @@
   array (
     'country' => '法国',
     'title' => '出口(亿欧元)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'FRGDP=ECI' => 
   array (
@@ -1467,13 +1461,13 @@
   array (
     'country' => '法国',
     'title' => '消费者支出(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'FRGPC2=ECI' => 
   array (
     'country' => '法国',
     'title' => '家庭消费支出(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'FRHIC=ECI' => 
   array (
@@ -1514,7 +1508,7 @@
   'FRNFAR=ECI' => 
   array (
     'country' => '法国',
-    'title' => '非农就业人数',
+    'title' => '非农就业人口变动(季率)',
     'priviege' => '3',
   ),
   'FRPMCF=ECI' => 
@@ -1546,12 +1540,6 @@
     'country' => '法国',
     'title' => '生产者物价指数(月率)',
     'priviege' => '3',
-  ),
-  'FRPPI2=ECI' => 
-  array (
-    'country' => '法国',
-    'title' => '',
-    'priviege' => '1',
   ),
   'FRRPMI=ECI' => 
   array (
@@ -1610,14 +1598,14 @@
   'GBBOEQ=ECI' => 
   array (
     'country' => '英国',
-    'title' => '英国央行QE购债规模',
+    'title' => '英国央行QE购债规模(亿英镑)',
     'priviege' => '5',
   ),
   'GBBRC=ECI' => 
   array (
     'country' => '英国',
     'title' => 'BRC零售销售(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GBBUI=ECI' => 
   array (
@@ -1755,7 +1743,7 @@
   array (
     'country' => '英国',
     'title' => 'M4货币供应量(十亿英镑)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GBMFG=ECI' => 
   array (
@@ -1772,19 +1760,19 @@
   'GBMPCC=ECI' => 
   array (
     'country' => '英国',
-    'title' => '英国央行货币政策委员会(MPC)投票降息',
+    'title' => '央行货币政策委员会(MPC)支持降息票数',
     'priviege' => '5',
   ),
   'GBMPCH=ECI' => 
   array (
     'country' => '英国',
-    'title' => '英国央行货币政策委员会(MPC)投票升息',
+    'title' => '央行货币政策委员会(MPC)支持升息票数',
     'priviege' => '5',
   ),
   'GBMPCU=ECI' => 
   array (
     'country' => '英国',
-    'title' => '英国央行货币政策委员会(MPC)投票维持利率不变',
+    'title' => '央行货币政策委员会(MPC)维持利率不变票数',
     'priviege' => '5',
   ),
   'GBMTG=ECI' => 
@@ -1802,7 +1790,7 @@
   'GBNEUT=ECI' => 
   array (
     'country' => '英国',
-    'title' => '非欧盟贸易收支',
+    'title' => '非欧盟贸易收支(亿英镑)',
     'priviege' => '3',
   ),
   'GBNHP=ECI' => 
@@ -1845,7 +1833,7 @@
   array (
     'country' => '英国',
     'title' => 'Markit/CIPS建筑业采购经理人指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GBPMIM=ECI' => 
   array (
@@ -1875,25 +1863,25 @@
   array (
     'country' => '英国',
     'title' => '政府收支短差(亿英镑)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GBPSNB=ECI' => 
   array (
     'country' => '英国',
     'title' => '公共部门净借款(亿英镑)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GBPSNF=ECI' => 
   array (
     'country' => '英国',
     'title' => '净借款量(不包括财政干预)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GBRICS=ECI' => 
   array (
     'country' => '英国',
     'title' => 'RICS房屋价格调查',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GBRPI=ECI' => 
   array (
@@ -1953,7 +1941,7 @@
   array (
     'country' => '希腊',
     'title' => '经常账户赤字(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GRCPIY=ECI' => 
   array (
@@ -1965,31 +1953,31 @@
   array (
     'country' => '希腊',
     'title' => '信贷扩张(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GRGDP=ECI' => 
   array (
     'country' => '希腊',
     'title' => '国内生产总值快速估计(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GRGDPE=ECI' => 
   array (
     'country' => '希腊',
     'title' => '国内生产总值临时估计(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GRGDPF=ECI' => 
   array (
     'country' => '希腊',
     'title' => '季调后国内生产总值临时预测(季率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GRGDPQ=ECI' => 
   array (
     'country' => '希腊',
     'title' => '季调后国内生产总值快速预测(季率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GRGDUY=ECI' => 
   array (
@@ -2007,25 +1995,25 @@
   array (
     'country' => '希腊',
     'title' => '工业产出(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GRPMI=ECI' => 
   array (
     'country' => '希腊',
     'title' => '制造业采购经理人指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GRPPIY=ECI' => 
   array (
     'country' => '希腊',
     'title' => '生产者物价指数(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GRRSLY=ECI' => 
   array (
     'country' => '希腊',
     'title' => '零售销售(同比)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'GRUNR=ECI' => 
   array (
@@ -2049,13 +2037,13 @@
   array (
     'country' => '香港',
     'title' => '外汇储备(亿美元)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'HKGDP=ECI' => 
   array (
     'country' => '香港',
     'title' => '国内生产总值(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'HKGDPY=ECI' => 
   array (
@@ -2067,37 +2055,37 @@
   array (
     'country' => '香港',
     'title' => '进口额(亿港元)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'HKM3MS=ECI' => 
   array (
     'country' => '香港',
     'title' => '货币供给M3(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'HKPMI=ECI' => 
   array (
     'country' => '香港',
     'title' => '财新采购经理人指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'HKRSL=ECI' => 
   array (
     'country' => '香港',
     'title' => '零售销售量(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'HKTRD=ECI' => 
   array (
     'country' => '香港',
     'title' => '出口额(亿港元)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'HKUNR=ECI' => 
   array (
     'country' => '香港',
     'title' => '失业率',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'IDCBIR=ECI' => 
   array (
@@ -2109,31 +2097,31 @@
   array (
     'country' => '印度尼西亚',
     'title' => '通胀率(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'IDCPIM=ECI' => 
   array (
     'country' => '印度尼西亚',
     'title' => '通胀率(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'IDGDP=ECI' => 
   array (
     'country' => '印度尼西亚',
     'title' => '国内生产总值(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'IDGDPQ=ECI' => 
   array (
     'country' => '印度尼西亚',
     'title' => '国内生产总值(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'IDGDPY=ECI' => 
   array (
     'country' => '印度尼西亚',
     'title' => '国内生产总值(全年)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'INCPIY=ECI' => 
   array (
@@ -2175,7 +2163,7 @@
   array (
     'country' => '印度',
     'title' => '进口额(美元)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'INTRD=ECI' => 
   array (
@@ -2187,7 +2175,7 @@
   array (
     'country' => '印度',
     'title' => '贸易帐(RBI)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ITBUSC=ECI' => 
   array (
@@ -2258,7 +2246,7 @@
   'ITGPYA=ECI' => 
   array (
     'country' => '意大利',
-    'title' => '国内生产总值',
+    'title' => '国内生产总值(全年)',
     'priviege' => '3',
   ),
   'ITHIC=ECI' => 
@@ -2307,7 +2295,7 @@
   array (
     'country' => '意大利',
     'title' => '季调平均工作日工业产出(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ITISL=ECI' => 
   array (
@@ -2325,7 +2313,7 @@
   array (
     'country' => '意大利',
     'title' => 'Markit/ADACI服务业采购经理人指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ITPPI=ECI' => 
   array (
@@ -2343,7 +2331,7 @@
   array (
     'country' => '意大利',
     'title' => 'Markit/ADACI制造业采购经理人指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ITRSL=ECI' => 
   array (
@@ -2385,13 +2373,13 @@
   array (
     'country' => '意大利',
     'title' => '工资上涨(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ITWINY=ECI' => 
   array (
     'country' => '意大利',
     'title' => '工资上涨(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'JPALLM=ECI' => 
   array (
@@ -2469,13 +2457,13 @@
   array (
     'country' => '日本',
     'title' => '企业商品价格指数(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'JPCGPY=ECI' => 
   array (
     'country' => '日本',
     'title' => '企业商品价格指数(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'JPCIIN=ECI' => 
   array (
@@ -2530,12 +2518,6 @@
     'country' => '日本',
     'title' => '未季调经常帐(亿日元)',
     'priviege' => '3',
-  ),
-  'JPEWDI=ECI' => 
-  array (
-    'country' => '日本',
-    'title' => '经济观察家指数',
-    'priviege' => '1',
   ),
   'JPEXPY=ECI' => 
   array (
@@ -2601,13 +2583,13 @@
   array (
     'country' => '日本',
     'title' => '求才求职比',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'JPLEIN=ECI' => 
   array (
     'country' => '日本',
     'title' => '领先指标',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'JPMORD=ECI' => 
   array (
@@ -2625,7 +2607,7 @@
   array (
     'country' => '日本',
     'title' => '加班工资(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'JPPMIF=ECI' => 
   array (
@@ -2697,103 +2679,103 @@
   array (
     'country' => '韩国',
     'title' => '制造业景气判断指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KRCONS=ECI' => 
   array (
     'country' => '韩国',
     'title' => '消费者信心指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KRCPI=ECI' => 
   array (
     'country' => '韩国',
     'title' => '消费者物价指数(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KRCPIY=ECI' => 
   array (
     'country' => '韩国',
     'title' => '消费者物价指数(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KRCURA=ECI' => 
   array (
     'country' => '韩国',
     'title' => '经常帐(亿美元)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KREXGR=ECI' => 
   array (
     'country' => '韩国',
     'title' => '出口(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KREXP=ECI' => 
   array (
     'country' => '韩国',
     'title' => '出口量增长',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KREXPP=ECI' => 
   array (
     'country' => '韩国',
     'title' => '出口物价指数(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KREXPR=ECI' => 
   array (
     'country' => '韩国',
     'title' => '出口额增长',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KRFDIQ=ECI' => 
   array (
     'country' => '韩国',
     'title' => 'L货币供应(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KRFX=ECI' => 
   array (
     'country' => '韩国',
     'title' => '外汇储备',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KRIMGR=ECI' => 
   array (
     'country' => '韩国',
     'title' => '进口(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KRIMP=ECI' => 
   array (
     'country' => '韩国',
     'title' => '进口总额年率初值',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KRIMPP=ECI' => 
   array (
     'country' => '韩国',
     'title' => '进口物价指数(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KRIMPR=ECI' => 
   array (
     'country' => '韩国',
     'title' => '进口额增长',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KRIO=ECI' => 
   array (
     'country' => '韩国',
     'title' => '工业产出增长',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KRIOY=ECI' => 
   array (
     'country' => '韩国',
     'title' => '工业产出(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KROCRT=ECI' => 
   array (
@@ -2805,25 +2787,25 @@
   array (
     'country' => '韩国',
     'title' => '生产者物价指数(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KRPPIY=ECI' => 
   array (
     'country' => '韩国',
     'title' => '生产者物价指数(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KRTBAL=ECI' => 
   array (
     'country' => '韩国',
     'title' => '贸易帐(亿美元)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'KRUNR=ECI' => 
   array (
     'country' => '韩国',
     'title' => '失业率',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'MYINTR=ECI' => 
   array (
@@ -2835,7 +2817,7 @@
   array (
     'country' => '新西兰',
     'title' => '营建许可',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'NZBOPQ=ECI' => 
   array (
@@ -2871,7 +2853,7 @@
   array (
     'country' => '新西兰',
     'title' => '移民和游客',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'NZEXP=ECI' => 
   array (
@@ -2900,8 +2882,8 @@
   'NZMANQ=ECI' => 
   array (
     'country' => '新西兰',
-    'title' => '制造业销售',
-    'priviege' => '1',
+    'title' => '制造业销售(季率)',
+    'priviege' => 1,
   ),
   'NZPPIQ=ECI' => 
   array (
@@ -2931,25 +2913,25 @@
   array (
     'country' => '新西兰',
     'title' => 'HLFS就业人数变化(季率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'NZWGSQ=ECI' => 
   array (
     'country' => '新西兰',
     'title' => '劳工成本指数(季率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'NZWGSY=ECI' => 
   array (
     'country' => '新西兰',
     'title' => '劳工成本指数(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'RUBUD=ECI' => 
   array (
     'country' => '俄罗斯',
-    'title' => '预算余额',
-    'priviege' => '1',
+    'title' => '预算余额(亿卢布)',
+    'priviege' => 1,
   ),
   'RUCBIR=ECI' => 
   array (
@@ -2972,7 +2954,7 @@
   'RUFXR=ECI' => 
   array (
     'country' => '俄罗斯',
-    'title' => '央行储备',
+    'title' => '央行储备(亿美元)',
     'priviege' => '3',
   ),
   'RUGDP=ECI' => 
@@ -2996,7 +2978,7 @@
   'RUIP=ECI' => 
   array (
     'country' => '俄罗斯',
-    'title' => '工业产出',
+    'title' => '工业产出(年率)',
     'priviege' => '3',
   ),
   'RUOEKB=ECI' => 
@@ -3009,7 +2991,7 @@
   array (
     'country' => '俄罗斯',
     'title' => '服务业采购经理人指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'RUPPI=ECI' => 
   array (
@@ -3026,8 +3008,8 @@
   'RUTRD=ECI' => 
   array (
     'country' => '俄罗斯',
-    'title' => '对外贸易',
-    'priviege' => '1',
+    'title' => '对外贸易(亿美元)',
+    'priviege' => 1,
   ),
   'RUUNR=ECI' => 
   array (
@@ -3141,7 +3123,7 @@
   array (
     'country' => '新加坡',
     'title' => '银行贷款(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'SGMFG=ECI' => 
   array (
@@ -3183,13 +3165,13 @@
   array (
     'country' => '新加坡',
     'title' => '季调后非石油产品出口(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'SGXOILY=ECI' => 
   array (
     'country' => '新加坡',
     'title' => '非石油产品出口(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'THCBIR=ECI' => 
   array (
@@ -3201,37 +3183,37 @@
   array (
     'country' => '台湾',
     'title' => '消费者物价指数(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'TWCPIY=ECI' => 
   array (
     'country' => '台湾',
     'title' => '消费者物价指数(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'TWCURA=ECI' => 
   array (
     'country' => '台湾',
     'title' => '经常帐(亿美元)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'TWEXOR=ECI' => 
   array (
     'country' => '台湾',
     'title' => '外销订单(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'TWEXP=ECI' => 
   array (
     'country' => '台湾',
-    'title' => '商品出口',
-    'priviege' => '1',
+    'title' => '商品出口(年率)',
+    'priviege' => 1,
   ),
   'TWFXR=ECI' => 
   array (
     'country' => '台湾',
     'title' => '外汇储备(亿美元)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'TWGDP=ECI' => 
   array (
@@ -3242,8 +3224,8 @@
   'TWIMP=ECI' => 
   array (
     'country' => '台湾',
-    'title' => '商品进出',
-    'priviege' => '1',
+    'title' => '商品进口(年率)',
+    'priviege' => 1,
   ),
   'TWINTR=ECI' => 
   array (
@@ -3255,31 +3237,31 @@
   array (
     'country' => '台湾',
     'title' => '工业市场(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'TWLEAD=ECI' => 
   array (
     'country' => '台湾',
     'title' => '领先指标(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'TWMSM2=ECI' => 
   array (
     'country' => '台湾',
     'title' => 'M2货币供应量(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'TWTBAL=ECI' => 
   array (
     'country' => '台湾',
     'title' => '贸易帐(亿美元)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'TWUNR=ECI' => 
   array (
     'country' => '台湾',
     'title' => '季调后失业率',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USADP=ECI' => 
   array (
@@ -3429,7 +3411,7 @@
   array (
     'country' => '美国',
     'title' => '消费信贷变动(亿美元)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USCURA=ECI' => 
   array (
@@ -3530,7 +3512,7 @@
   'USFOMC=ECI' => 
   array (
     'country' => '美国',
-    'title' => '美联储利率决议',
+    'title' => '联邦基金利率',
     'priviege' => '5',
   ),
   'USFORD=ECI' => 
@@ -3591,7 +3573,7 @@
   array (
     'country' => '美国',
     'title' => 'ECRI当周领先指标年率化增幅',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USGSPA=ECI' => 
   array (
@@ -3633,31 +3615,31 @@
   array (
     'country' => '美国',
     'title' => '月度住房价格(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USHPIY=ECI' => 
   array (
     'country' => '美国',
     'title' => '月度住房价格(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USHST=ECI' => 
   array (
     'country' => '美国',
-    'title' => '新屋开工(年化月率)',
+    'title' => '新屋开工总数年化(万户)',
     'priviege' => '5',
   ),
   'USHSTM=ECI' => 
   array (
     'country' => '美国',
-    'title' => '新屋开工(月率)',
+    'title' => '新屋开工(年化月率)',
     'priviege' => '3',
   ),
   'USIBDC=ECI' => 
   array (
     'country' => '美国',
     'title' => 'IBD经济乐观指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USIMP=ECI' => 
   array (
@@ -3723,13 +3705,13 @@
   array (
     'country' => '美国',
     'title' => '堪萨斯联储制造业综合指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USKCMF=ECI' => 
   array (
     'country' => '美国',
     'title' => '堪萨斯联储制造业产出指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USLBFB=ECI' => 
   array (
@@ -3759,19 +3741,19 @@
   array (
     'country' => '美国',
     'title' => 'MBA抵押贷款市场指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USMGPI=ECI' => 
   array (
     'country' => '美国',
     'title' => 'MBA抵押贷款购买指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USMGR=ECI' => 
   array (
     'country' => '美国',
     'title' => 'MBA抵押贷款再融资活动指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USMPMF=ECI' => 
   array (
@@ -4052,38 +4034,38 @@
   'USQET=ECI' => 
   array (
     'country' => '美国',
-    'title' => '量化宽松总量',
+    'title' => '量化宽松总量(亿美元)',
     'priviege' => '5',
   ),
   'USREDM=ECI' => 
   array (
     'country' => '美国',
     'title' => '红皮书商业零售销售(月率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USREDY=ECI' => 
   array (
     'country' => '美国',
     'title' => '红皮书商业零售销售(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USRFD=ECI' => 
   array (
     'country' => '美国',
     'title' => '里奇蒙德联储制造业装船指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USRFDM=ECI' => 
   array (
     'country' => '美国',
     'title' => '里奇蒙德联储综合指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USRFDS=ECI' => 
   array (
     'country' => '美国',
     'title' => '里奇蒙德联储服务业收入指数',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USRLCO=ECI' => 
   array (
@@ -4113,7 +4095,7 @@
   array (
     'country' => '美国',
     'title' => 'SEMI订单出货比',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USSHP=ECI' => 
   array (
@@ -4154,20 +4136,20 @@
   'USTRSY=ECI' => 
   array (
     'country' => '美国',
-    'title' => 'QE购债规模',
+    'title' => 'QE购债规模(亿美元)',
     'priviege' => '5',
   ),
   'USUBSW=ECI' => 
   array (
     'country' => '美国',
     'title' => 'ICSC-高盛连锁店销售(较上周)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USUBSY=ECI' => 
   array (
     'country' => '美国',
     'title' => 'ICSC-高盛连锁店销售(年率)',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'USUMCF=ECI' => 
   array (
@@ -4229,29 +4211,17 @@
     'title' => '平均每周工时(小时)',
     'priviege' => '3',
   ),
-  'VNCPIM=ECI' => 
-  array (
-    'country' => NULL,
-    'title' => '通胀率(月率)',
-    'priviege' => '1',
-  ),
-  'VNCPIY=ECI' => 
-  array (
-    'country' => NULL,
-    'title' => '通胀率(年率)',
-    'priviege' => '1',
-  ),
   'ZAFXRG=ECI' => 
   array (
     'country' => '南非',
-    'title' => '黄金和外汇储备',
-    'priviege' => '1',
+    'title' => '黄金和外汇储备(亿美元)',
+    'priviege' => 1,
   ),
   'ZAFXRS=ECI' => 
   array (
     'country' => '南非',
     'title' => '净黄金与外汇储备',
-    'priviege' => '1',
+    'priviege' => 1,
   ),
   'ZAGLD=ECI' => 
   array (
