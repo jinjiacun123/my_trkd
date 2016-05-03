@@ -20,7 +20,7 @@ function post_long_news($url, $title, $content)
 	return $result->JsonInsertArtinfoResult;
 }
 
-$url = 'http://192.168.1.38:8011/NewInsertArticle.asmx?wsdl';
+$url = 'http://192.168.1.9:8011/NewInsertArticle.asmx?wsdl';
 $title = '我的测试';
 $content = '我的测试内容';
 echo post_long_news($url, $title, $content);

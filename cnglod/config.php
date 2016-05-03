@@ -5,9 +5,13 @@ define('TOKEN_URL',    'http://localhost/sample_api/cnglod/TokenManagement');#�
 define('REDIRECT_URL', 'http://localhost/sample_api/cnglod/redirect.php');#中间跳转url
 
 #账号配置信息
-define('APPID',       'trkddemoappwm');
+/*define('APPID',       'trkddemoappwm');
 define('USER_NAME',   'trkd-demo-wm@thomsonreuters.com');
-define('PASSWORD',    't7c9k32db');
+define('PASSWORD',    't7c9k32db');*/
+
+define('APPID',       'YolandaCngoldComCn');
+define('USER_NAME',   'yolanda@cngold.com.cn');
+define('PASSWORD',    'cngold2016');
 
 define('MAX_DATA_COUNT', 711);#最大经济数据条数
 

@@ -12,9 +12,9 @@ ini_set("soap.wsdl_cache_enabled", 0);
 $client = new SoapClient("http://api.trkd.thomsonreuters.com/schemas/wsdl/TokenManagement/TokenManagement_1_HttpsAndAnonymous.wsdl", array('soap_version' => SOAP_1_2));
 #$client = new SoapClient("http://api.rkd.reuters.com/schemas/wsdl/TokenManagement_1_HttpsAndAnonymous.wsdl", array('soap_version' => SOAP_1_2));
 $createTokenRequest = array(
-   'ApplicationID' => 'trkddemoappwm',
-   'Username' => 'trkd-demo-wm@thomsonreuters.com',
-   'Password' => 's4j9u82us'
+   'ApplicationID' => 'YolandaCngoldComCn',
+   'Username' => 'yolanda@cngold.com.cn',
+   'Password' => 'cngold2016'
 );
 $wsAddressingHeaders = array(
       new SoapHeader('http://www.w3.org/2005/08/addressing', 'To', 'https://api.rkd.reuters.com/api/2006/05/01/TokenManagement_1.svc/Anonymous'),

@@ -92,7 +92,7 @@ class RequestBuilder
   public static function createRequest()
   {
   	global $begin_time, $end_time;
-  	/*
+  	
   	$filter = new SoapVar('
   	<Filter xmlns="http://www.reuters.com/ns/2006/05/01/webservices/rkd/News_1">
       <And xmlns="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/filter">
@@ -171,7 +171,8 @@ class RequestBuilder
         </MetaDataConstraint>
       </And>
     </Filter>', XSD_ANYXML);
-    */
+    
+    /*
 	$filter = new SoapVar('
     <Filter xmlns="http://www.reuters.com/ns/2006/05/01/webservices/rkd/News_1">
       <And xmlns="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/filter">
@@ -210,7 +211,7 @@ class RequestBuilder
     return array(
         'HeadlineMLRequest' => array(
             'TimeOut' => 600,
-            'MaxCount' => 25,
+            'MaxCount' => 100,
             'MaxCountPerFilter' => true,
             // 'StartTime' => '2011-04-06T00:00:00',  //uncomment these lines to set the start and end dates if necessary
             'StartTime' => $begin_time,
