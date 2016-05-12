@@ -1,7 +1,9 @@
     <?php  
+    date_default_timezone_set("PRC");
     set_time_limit(1800);
     include_once("./config.php");
     include_once('./lib/lib.php');    //引用PHP XML操作类  
+    include_once('./ini_file.php');
     #include_once('./lib/lib_xml.php');    //引用PHP XML操作类  
     $xml_url = 'data/news/tmp.xml';
     $xml = file_get_contents($xml_url);    //读取XML文件  
@@ -35,6 +37,9 @@ while ($reader->read()) {
         }   
 }
 $reader->close();
+
+#检查是否提交了
+
 
     /**
     * id
@@ -105,8 +110,23 @@ $reader->close();
     $appid = APPID;
 
     foreach($re_list as $k=>$v)
-    {
+    {        
     	$news_id = $v['id'];
+
+        //检查Ini文件是否存在
+        ##存在就跳过，写入
+        $cur_date = date('Y-m-d');
+        $is_have = ini_file(null, 'default', $news_id);
+        if('' == $is_have)
+        {
+            ini_file(null, 'default', $news_id, $cur_date);
+        }
+        else
+        {
+            continue;
+        }
+
+
 	    #$news_id = 'urn:newsml:reuters.com:20160105:nL3T14P02B';
 	    $tmp_content = get_news_content($appid, $token, $news_id);
         file_put_contents("./data/news/content.xml", $tmp_content);
@@ -142,6 +162,7 @@ $reader->close();
                 }   
         }
         $reader->close();
+        break;
     }
 
     #print_r($list);
@@ -151,6 +172,7 @@ $reader->close();
     foreach($list['ht'] as $k=>$v)
     {
     	#print_r(post_news($v['title'], $v['classname']));
+        echo '<br/>';
         print_r(post_long_news($list['ht'][$k], $list['te'][$k]));
     }
     ?>  

@@ -2,6 +2,7 @@
 $url = 'http://192.168.1.248:86/ReutersHandler.ashx';
 #$url1 = 'http://192.168.1.38:8011/NewInsertArticle.asmx?wsdl';
 $url1 = 'http://192.168.1.9:8011/NewInsertArticle.asmx?wsdl';
+#$url1 = 'http://192.168.1.248:8069/NewInsertArticle.asmx';
 #正式地址
 #http://221.6.167.39:802/
 $header[] = 'Source: cngold.com.cn';
@@ -99,7 +100,7 @@ function post_data($title, $before, $prediction, $result, $country, $rank=1)
 	return my_post1($url, $param, $header);
 }
 
-post_data('澳大利亚建筑支出(季率)', 
+print post_data('澳大利亚建筑支出(季率)', 
 		      $re_list['HTS_CLOSE2'], 
 		      $re_list['SEC_YLD_1'], 
 		      $re_list['CF_LAST'], 

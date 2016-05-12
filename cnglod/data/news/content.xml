@@ -1,0 +1,40 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing"><s:Header><a:Action s:mustUnderstand="1">http://www.reuters.com/ns/2006/05/01/webservices/rkd/News_1/RetrieveStoryML_1_Reply</a:Action><CacheResponse xsi:type="DoNotStoreCacheResponse" xmlns="http://www.reuters.com/ns/2008/03/01/webservices/rkd/Cache_1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Date>2016-05-12T08:49:03.50501Z</Date><DoNotStore/></CacheResponse></s:Header><s:Body><ns0:RetrieveStoryML_Response_1 xmlns:ns0="http://www.reuters.com/ns/2006/05/01/webservices/rkd/News_1" xmlns:ns1="http://www.reuters.com/ns/2006/05/01/webservices/rkd/News_1"><ns0:StoryMLResponse><ns0:Status><ns0:StatusMsg>OK</ns0:StatusMsg><ns0:StatusCode>0</ns0:StatusCode></ns0:Status><ns0:STORYML xmlns="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml"><HL space="preserve" xmlns:ns3="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/headlineml"><ID>urn:newsml:reuters.com:20160427:nL3T17U1ML</ID><RE>3</RE><ST>Usable</ST><CT>2016-04-27T03:07:19-00:00</CT><RT>2016-04-27T03:07:19-00:00</RT><LT>2016-04-27T03:47:31-00:00</LT><PR>reuters.com</PR><AT>RTRS</AT><UR>4</UR><LN>zh</LN><HT>日本股市：早盘收低，苹果供应商承压且企业财报不佳引发担忧</HT><TY>story</TY><PE>511 283 305 315 376 486</PE><STORY_PE>511 283 305 315 376 486</STORY_PE><CO>.TOPX .N225</CO><TO>REP JP RTRS STX CMPNY MKTREP LZH ASIA</TO><NI>.TCN</NI><TN>2</TN><TE>&lt;pre&gt;&lt;p&gt;    路透东京4月27日 - 日本股市周三早盘小幅收低，因苹果 &lt;Origin Href="QuoteRef"&gt;AAPL.O&lt;/Origin&gt; 相关类股遭受冲击，并且在日本央行本周会议是否会祭出新的刺激措施存在不确定性的情况下，令人失望的企业财报备受关注。 
+     
+    日经指数 &lt;Origin Href="QuoteRef"&gt;.N225&lt;/Origin&gt; 早盘收低0.58%至17,253.01点，可能连续第三日下跌。 
+     
+    日本的iPhone零部件供应商股价走低，因美国消费电子公司苹果公布iPhone销量首次下滑，且十多年来营收首次下降 &lt;Origin Href="StoryRef"&gt;urn:newsml:reuters.com:*:nL3T17T5J9&lt;/Origin&gt;。 
+  
+    对苹果仰赖极深的陶瓷电容器制造商Murata Manufacturing Co Ltd 
+ &lt;Origin Href="QuoteRef"&gt;6981.T&lt;/Origin&gt; 股价重挫逾4%，影像感应器制造商Alps Electric Co 
+Ltd  &lt;Origin Href="QuoteRef"&gt;6770.T&lt;/Origin&gt; 和Mitsumi Electric Co Ltd  &lt;Origin Href="QuoteRef"&gt;6767.T&lt;/Origin&gt; 分别下跌2.35%和2%。电子及光学厂商Taiyo Yuden Co Ltd  &lt;Origin Href="QuoteRef"&gt;6976.T&lt;/Origin&gt; 下跌约2%。 
+     
+    三菱汽车 &lt;Origin Href="QuoteRef"&gt;7211.T&lt;/Origin&gt; 股价下跌2.5%，媒体报导该公司两位高管将可能因该公司的操纵能效数据丑闻而辞职。 &lt;Origin Href="StoryRef"&gt;urn:newsml:reuters.com:*:nL3T17U1FW&lt;/Origin&gt; 
+     
+    佳能 &lt;Origin Href="QuoteRef"&gt;7751.T&lt;/Origin&gt; 股价重挫5.8%，此前日经报导称该公司预计今年销售将下滑5%，跌破公司最初的预估。 
+     
+    东证股价指数的铁矿及钢铁类股 &lt;Origin Href="QuoteRef"&gt;.ISTEL.T&lt;/Origin&gt; 下跌1%，受到获利疲软及海内外需求下滑的压力。 
+     
+    东证股价指数 &lt;Origin Href="QuoteRef"&gt;.TOPX&lt;/Origin&gt; 下跌0.79%至1,380.67点，JPX日经400指数 &lt;Origin Href="QuoteRef"&gt;.JPXNK400&lt;/Origin&gt; 下滑0.86%，报12,506.00点。(完) 
+ 
+    ****如欲参考原文报导，请点选 &lt;Origin Href="StoryRef"&gt;urn:newsml:reuters.com:*:nL3N17U1GX&lt;/Origin&gt;即可撷取浏览****      
+ 
+     
+    ****查阅相关新闻或页面，请点选下列代码连结****  
+    
+    美国股市                 &lt;Origin Href="NewsSearch"&gt;.NCN&lt;/Origin&gt;    标准普尔主要分类指数   &lt;Origin Href="QuoteRef"&gt;0#.GSPMAJOR&lt;/Origin&gt;  
+    美股盘前/盘后        &lt;Origin Href="NewsSearch"&gt;XHR/USCN&lt;/Origin&gt;    美股一周展望                &lt;Origin Href="NewsSearch"&gt;.N/OCN&lt;/Origin&gt;  
+    Nasdaq最活跃个股        &lt;Origin Href="QuoteRef"&gt;.AV.O&lt;/Origin&gt;    纽约证交所最活跃个股         &lt;Origin Href="QuoteRef"&gt;.AV.N&lt;/Origin&gt;  
+    Nasdaq涨幅居前个股      &lt;Origin Href="QuoteRef"&gt;.PG.O&lt;/Origin&gt;    纽约证交所涨幅居前个股       &lt;Origin Href="QuoteRef"&gt;.PG.N&lt;/Origin&gt;  
+    Nasdaq跌幅居前个股      &lt;Origin Href="QuoteRef"&gt;.PL.O&lt;/Origin&gt;    纽约证交所跌幅居前个股       &lt;Origin Href="QuoteRef"&gt;.PL.N&lt;/Origin&gt;  
+    美股盘中英文报导   &lt;Origin Href="NewsSearch"&gt;STXNEWS/US&lt;/Origin&gt;    中港台企业ADR报价一览表    &lt;Origin Href="NewsSearch"&gt;CTMT/CN&lt;/Origin&gt;  
+    股市新闻              &lt;Origin Href="NewsSearch"&gt;STX-CMN&lt;/Origin&gt;    加拿大股市报导               &lt;Origin Href="NewsSearch"&gt;.TOCN&lt;/Origin&gt;  
+    欧洲股市报导            &lt;Origin Href="NewsSearch"&gt;.EUCN&lt;/Origin&gt;    日本股市报导                  &lt;Origin Href="NewsSearch"&gt;.TCN&lt;/Origin&gt;  
+    香港股市报导            &lt;Origin Href="NewsSearch"&gt;.HKCN&lt;/Origin&gt;    中国股市报导                 &lt;Origin Href="NewsSearch"&gt;.SSCN&lt;/Origin&gt;  
+    澳洲股市报导            &lt;Origin Href="NewsSearch"&gt;.AXCN&lt;/Origin&gt;    台湾股市报导                 &lt;Origin Href="NewsSearch"&gt;.TWCN&lt;/Origin&gt;  
+    韩国股市报导            &lt;Origin Href="NewsSearch"&gt;.KSCN&lt;/Origin&gt;    东南亚股市报导               &lt;Origin Href="NewsSearch"&gt;.SOCN&lt;/Origin&gt;  
+    英股富时指数            &lt;Origin Href="QuoteRef"&gt;.FTSE&lt;/Origin&gt;    德股DAX指数                 &lt;Origin Href="QuoteRef"&gt;.GDAXI&lt;/Origin&gt;  
+    法股CAC-40指数          &lt;Origin Href="QuoteRef"&gt;.FCHI&lt;/Origin&gt;  
+ 
+ (编译 王兴亚/李婷仪 审校 孙茉莉/王洋) 
+ ((tina.li1@thomsonreuters.com; 886-2-25022095; Reuters 
+Messaging: tina.li1.thomsonreuters.com@reuters.net))&lt;/p&gt;&lt;/pre&gt;</TE><PD>DNP CDS CMN PMF CLN</PD></HL></ns0:STORYML></ns0:StoryMLResponse></ns0:RetrieveStoryML_Response_1></s:Body></s:Envelope>

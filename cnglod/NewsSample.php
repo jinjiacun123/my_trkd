@@ -97,73 +97,42 @@ class RequestBuilder
   	<Filter xmlns="http://www.reuters.com/ns/2006/05/01/webservices/rkd/News_1">
       <And xmlns="http://schemas.reuters.com/ns/2006/04/14/rmds/webservices/news/filter">
 		<Or>
-			<MetaDataConstraint class="companies">
+			<MetaDataConstraint class="any">
 				<Value>.NCN</Value>
 			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
+			<MetaDataConstraint class="any">
 				<Value>.LCN</Value>
 			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
+			<MetaDataConstraint class="any">
 				<Value>.TCN</Value>
 			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
+			<MetaDataConstraint class="any">
 				<Value>.EUCN</Value>
 			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
+			<MetaDataConstraint class="any">
 				<Value>.HKCN</Value>
 			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
+			<MetaDataConstraint class="any">
 				<Value>.TWCN</Value>
 			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
+			<MetaDataConstraint class="any">
 				<Value>.SSCN</Value>
 			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
+			<MetaDataConstraint class="any">
 				<Value>FRX/CN</Value>
 			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
+			<MetaDataConstraint class="any">
 				<Value>GOL/ECN</Value>
 			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
+			<MetaDataConstraint class="any">
 				<Value>GOL/HCN</Value>
 			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
+			<MetaDataConstraint class="any">
 				<Value>CNY/CN</Value>
 			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
+			<MetaDataConstraint class="any">
 				<Value>O/NCN</Value>
 			</MetaDataConstraint>
-
-			<MetaDataConstraint class="companies">
-				<Value>.N</Value>
-			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
-				<Value>.L</Value>
-			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
-				<Value>.T</Value>
-			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
-				<Value>.BA</Value>
-			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
-				<Value>.EU</Value>
-			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
-				<Value>FRX/</Value>
-			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
-				<Value>GOL/</Value>
-			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
-				<Value>O/R</Value>
-			</MetaDataConstraint>
-			<MetaDataConstraint class="companies">
-				<Value>MKTS/GLOB</Value>
-			</MetaDataConstraint>
-
-		
-
 		</Or>
        
         <MetaDataConstraint class="language">
@@ -244,6 +213,7 @@ try
 	$createTokenResponse = $client->__soapCall('CreateServiceToken_1', array('parameters' => $createTokenRequest), null, $wsAddressingHeaders);
 	echo 'Token received<br/>Token:&nbsp;' . bin2hex($createTokenResponse->Token) .
 	'<br/>Expiration:&nbsp;' . $createTokenResponse->Expiration . '<br/>';
+	file_put_contents('token.txt', bin2hex($createTokenResponse->Token));
 
 } catch (SoapFault $e) {
 	echo "<span style='color:red'>Error occured: " . $e->getMessage() . "</span>";
